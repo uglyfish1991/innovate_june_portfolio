@@ -1,4 +1,5 @@
-# import random
+import numbers
+import random
 # # # this is how to show information
 
 # # print("this is my file")
@@ -87,65 +88,81 @@
 # print(10%3==0)
 
 # num=10
-# num2=20
+# # num2=20
 
-# if num > num2:
-#     print(f"{num} is bigger")
-# elif num2 > num:
-#     print(f"{num2} is bigger")
-# else:
-#     print("Both are equal")
+# # if num > num2:
+# #     print(f"{num} is bigger")
+# # elif num2 > num:
+# #     print(f"{num2} is bigger")
+# # else:
+# #     print("Both are equal")
 
-# place ="MCR"
-# weather="Rainy"
+# # place ="MCR"
+# # weather="Rainy"
 
-# if place=="MCR" and weather=="Sunny":
-#     print("Check again")
-# elif place=="MCR" and weather=="Cloudy":
-#     print("What is isn't raining?")
-# else:
-#     print("obvs")
+# # if place=="MCR" and weather=="Sunny":
+# #     print("Check again")
+# # elif place=="MCR" and weather=="Cloudy":
+# #     print("What is isn't raining?")
+# # else:
+# #     print("obvs")
 
-# day = "Monday"
-# bank_hol = False
+# # day = "Monday"
+# # bank_hol = False
 
-# if day=="Saturday" or day=="Sunday" or bank_hol:
-#     print("A day off")
-# else:
-#     print("Off to Innovate we go")
+# # if day=="Saturday" or day=="Sunday" or bank_hol:
+# #     print("A day off")
+# # else:
+# #     print("Off to Innovate we go")
 
-# def light_switch():
-#     print("Switching the lights")
+# # def light_switch():
+# #     print("Switching the lights")
 
-# light_switch()
-# light_switch()
-# light_switch()
+# # light_switch()
+# # light_switch()
+# # light_switch()
 
-# def cash_with(amount,accnum):
-#     print(f"From your account {accnum} you have withdrawn {amount}")
+# # def cash_with(amount,accnum):
+# #     print(f"From your account {accnum} you have withdrawn {amount}")
 
-# cash_with(300,12345678)
-# cash_with(100,12309876545678)
-# cash_with(334567,134567)
+# # cash_with(300,12345678)
+# # cash_with(100,12309876545678)
+# # cash_with(334567,134567)
 
-fav_songs = [
-    "The foundations of decay - my chemical romance",
-    "Pandemonium - Killing Joke",
-    "Jigsaw Falling into Place Radiohead"
-]
+# fav_songs = [
+#     "The foundations of decay - my chemical romance",
+#     "Pandemonium - Killing Joke",
+#     "Jigsaw Falling into Place Radiohead",
+#     "Army of me _ Bjork"
+# ]
 
-print(fav_songs)
+# for i in fav_songs:
+#     print("That's a great song")
 
-fav_songs[1] = "Adam's Song- Blink 182"
+# # for i in range(0,10,1):
+# #     print(i)
 
-print(fav_songs)
+# # for i in range(2,10,2):
+# #     print(i)
 
-print(len(fav_songs))
+# #start:stop:step
+# for i in range(10,-1,-1):
+#     print(i)
 
-fav_songs.append("Army of Me - Bjork")
+# num 1 - my number
+# num 2 - computer's number
 
-print(fav_songs)
+# compare them
 
-fav_songs.pop(2)
+# while they don't match computer guesses again
+# when they match, say "well done"
 
-print(fav_songs)
+my_num = 13
+comp_num = random.randint(1,50)
+
+while my_num != comp_num:
+    print(f"The numbers {my_num} and {comp_num} do not match")
+    comp_num = random.randint(1,50)
+
+print(f"The numbers {my_num} and {comp_num} do match")
+
