@@ -1,9 +1,10 @@
 import random
 
-# print("this is level up")
+print("this is level up")
 
-# print(int(5.6))
-# print(type(int("54")))
+print(int(5.6)) #even though this is a floating point, we're converting it into an int
+print(type(int("54"))) #even though this is a string, we're converting it into an int
+#print(int("hello")) <- this would cause us a fatal error 
 
 # balance = 100
 
@@ -70,9 +71,6 @@ import random
 # print(odd_nums)
 
 #my list
-
-
-
 fav_songs = [
     "The foundations of decay - my chemical romance",
     "Pandemonium - Killing Joke",
