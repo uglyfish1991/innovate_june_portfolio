@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+h1, h2{
+    color: red;
+    text-align: center;
+}
+
+
+p {
+    color: purple;
+    font-size: 32px;
+}
+
+.centretext{
+    text-align: center;
+}
+
+#maintitle{
+    color:green;
+    text-decoration: underline;
+}
+
+nav>a{
+    color: hotpink;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+img:hover{
+    border: 10px orange solid;
+}
+
+.content{
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    width: 540px;
+    padding: 10px;
+    border: 20px green solid;
+    background-color: darkgray;
+}

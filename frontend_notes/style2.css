@@ -1,0 +1,22 @@
+body{
+    color:blue;
+    background-color:azure;
+}
+
+h1, h2{
+    color:cadetblue;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    color:darkgreen;
+    font-size:2px;
+}
+
+p{
+    color: green;
+    font-size: 32px;
+}
