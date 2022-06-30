@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Notes</title>
+</head>
+
+<body>
+    <h1>HTML Recap</h1>
+    <p> HTML is the main language for structuring webpages. It allows us to use tags to give our content properties,
+        which will be rendered by a browser</p>
+    <p> HTML relies on elements to work - these elements are like the keywords that browsers recognise to know what
+        properties to apply to what. It's typically written as:<br>
+        &lt;tagname &gt; The content &lt;/tagname &gt;</p>
+    <p>The first block is the opening tag - it tells the browser "from this point on, render the contents with these
+        properties." Then you have the content you want to use, and then you close the element with the closing tag.
+        This tells the browser to stop rendering content with those properties. <br>
+        The properties are defined by the tagname. These are all standard names that already exist, as many browsers
+        need to be able to read them and know what to do. </p>
+    <h2> Examples of HTML Tags</h2>
+    <p> The &lt;p &gt; paragraph element &lt;/p &gt; <br>
+        This is used to denote paragraphs or blocks of text. The browser renders a paragraph with some space above and
+        below</p>
+    <p> The &lt;h1 &gt; heading tag(s) &lt;/h1 &gt; <br>
+        There are six heading tags in HTML. These are h1 - h6, and the are like newspaper headlines. H1 is the most
+        important heading - and so should only be used once per page. </p>
+    <p> The &lt;a &gt; anchor tag &lt;/a &gt; <br>
+        The anchor tag is used to achor points - or create hyperlinks. These links can be internal, external, or
+        jumplinks, links which allow us to link to a point on a page referenced by an ID.</p>
+    <p> The &lt;img &gt; image tag<br>
+        The image tag is used to embed images on a page. It is a standalone or self-closing tag, it doesn't need us to
+        write in a closing tag. The img tag alone does very little - it needs an attribute to work. The attribute is
+        <i>src</i> short for source - where is the image that you want to show located?<br>
+        Another attribute for the img tag is <i>alt</i> short for alternative. It provides an alternative thing to
+        display should the image not be rendered for any reason. It is especially useful for screen readers and
+        accessibilty.
+    </p>
+    <h2>Groupings</h2>
+    <p> We might want to group certain elements together into a box. Certain boxes exist for different reasons.
+        Visually, the following tags would all look the same with no CSS, but a browser would be able to under the roles
+        of boxes, their structure and the importance of them.</p>
+    <h4>Blocks - elements which would not sit next to other content</h4>
+    <p> The &lt;nav &gt; nav block &lt;/nav &gt; <br>
+        The nav block is used to group together main navigation links</p>
+    <p> The &lt;header &gt; header block &lt;/header &gt; <br>
+        The header block is used to group together header information - maybe a logo or hero image, your website menu,
+        your H1 element</p>
+    <p> The &lt;footer &gt; footer block &lt;/footer &gt; <br>
+        The footer block is used to group together information which sits at the foot of a page - though there is
+        nothing in the HTML which forces it to the bottom! It would typically group things like contact info, copyright
+        info, sitemaps etc</p>
+    <p> The &lt;div &gt; div block &lt;/div &gt; <br>
+        The div block is used when no other block is relevant. Check w3 schools for a list of all the elements that
+        exist - there's a lot of them!</p>
+    <h4>Inlines - elements which would not sit next to other content</h4>
+    <p> The &lt;em &gt; em tag &lt;/em &gt; <br>
+        Defines something as emphasised. A browser will show it as italic, and a screen reader will read it !</p>
+    <p> The &lt;strong &gt; strong &lt;/strong &gt; <br>
+       Defines text as strong. It has a high importance and browsers will render it bold</p>
+    <p> The &lt;span &gt; span tag &lt;/span &gt; <br>
+        Span is the inline version of div! When no other inline class is relevant, use span!</p>
+        
+    
+</body>
+
+</html>
