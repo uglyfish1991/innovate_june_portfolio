@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Montserrat&family=Roboto&family=Rubik+Moonrocks&family=Splash&display=swap');
+
+@font-face {
+    font-family: klong;
+    src: url('Sernes-Light.otf');
+}
+
 *{
     box-sizing: border-box;
+    font-family: 'klong', sans-serif;
 }
 
 body{
@@ -11,10 +19,17 @@ h1, h2{
     text-align: center;
 }
 
+img{
+    width:30%;
+    float:left;
+    padding-right:20px;
+
+}
 
 p {
     color: purple;
     font-size: 32px;
+    font-display: bold;
 }
 
 .centretext{
@@ -30,10 +45,6 @@ nav>a{
     color: hotpink;
     text-decoration: none;
     font-size: 30px;
-}
-
-img:hover{
-    border: 10px orange solid;
 }
 
 .content{
