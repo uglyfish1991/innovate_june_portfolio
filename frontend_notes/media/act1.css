@@ -1,0 +1,31 @@
+/* The default is to hide these classes - we only want those messages appearing under certain circumstances */
+
+.desktop, .mobile {
+    display: none;
+}
+
+/* The rules we want to apply for if the screen is taller than it is wide */
+@media (orientation: portrait) {
+
+    body{
+        background-color: black;
+        color: lightblue;
+    }
+
+    .mobile{
+        display: inline-block;
+    }
+}
+
+/* The rules we want to apply for if the screen is wider than it is taller */
+@media (orientation:landscape) {
+    body{
+        background-color: azure;
+        color: cadetblue;
+    }
+
+    .desktop{
+        display: inline-block;
+    }
+}
+

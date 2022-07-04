@@ -1,0 +1,41 @@
+/* I have built this website mobile-first. My default styling is how it appears on mobile. */
+
+body{
+    background-color: aliceblue;
+}
+
+/* I'm chosing to hide the images on mobile-mode. Space is at a premium, and while  */
+.headshot {
+    display:none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    background-color: rgb(186, 238, 249);
+    padding: 5%;
+    border: 3px white solid;
+    margin-bottom: 1%;
+}
+
+@media (orientation: landscape) {
+    .headshot{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:70%;
+        border: 3px white solid;
+    }
+
+    .container{
+        flex-direction: row;
+    }
+
+    .card{
+        margin-right: 1%;
+        text-align: center;
+    }
+}
