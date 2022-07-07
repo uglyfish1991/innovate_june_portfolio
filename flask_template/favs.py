@@ -1,0 +1,1 @@
+fav_bands = ["My Chemical Romance", "Radiohead", "Killing Joke", "Mansun", "The Verve"]

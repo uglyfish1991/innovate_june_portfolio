@@ -1,5 +1,4 @@
 from character import Character
-import random
 
 spidey = Character("Peter Parker","Spiderman")
 spidey.set_power("Web-Slinging")

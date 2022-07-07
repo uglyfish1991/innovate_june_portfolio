@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'main.css')}}">
+    <script src="{{url_for('static', filename = 'app.js')}}"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events</title>
+</head>
+<body onload="darkCheck(),checkCookies()">
+    <div class="flex-container-h">
+    <div>
+        <a href="{{ url_for('my_view.index')}}">Return to Home</a>
+        <a href="{{ url_for('my_view.page1')}}">Page 1</a>
+        <a href="{{ url_for('my_view.page2')}}">Page 2</a>
+        <a href="{{ url_for('my_view.page3')}}">Page 3</a>
+        <a href="{{ url_for('my_view.page4')}}">Page 4</a>
+        <a href="{{ url_for('my_view.page5')}}">Page 5</a>
+        <a href="{{ url_for('my_view.admin')}}">Admin</a>
+    <h1>JavaScript Events</h1>
+    <div class="flex-container-h">
+        <button onclick="darkMode()">Dark Mode</button>
+
+    </div>
+    {% block content %}
+    {% endblock %}
+    </div>
+    
+    </body>
+    </html>

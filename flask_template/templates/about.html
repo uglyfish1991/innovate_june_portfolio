@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h3>This is the about page</h3>
+<h4> This is a list of my favourite bands</h4>
+
+{% for i in fav_bands %}
+<h5>{{ i }}</h5>
+{% endfor %}
+
+<form action="/about" method="post">
+    <input type="text" name="add_band" id="band_add" placeholder="Enter a band!">
+    <button type="submit"> Submit a band</button>
+</form>
+
+{% endblock %}
